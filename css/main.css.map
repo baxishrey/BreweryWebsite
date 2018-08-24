@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AGAA,OAAO,CAAC,0CAAI;AAEZ,AAAA,IAAI,CAAC;EACD,WAAW,EDFL,aAAa,EAAC,KAAK;ECGzB,SAAS,EAAE,SAAS;EACpB,WAAW,EAAE,GAAG;EAChB,KAAK,EFFQ,OAAO;EEGpB,WAAW,EDJH,GAAG;CCKd;;AAED,AAAA,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,CAAC,EAAE,MAAM,CAAC;EAClB,MAAM,EAAE,CAAC;CACZ;;AAED,AAAA,eAAe;AACf,kBAAkB,CAAC;EACf,WAAW,EDhBJ,WAAW,EAAC,UAAU;ECiB7B,WAAW,EAAE,CAAC;CACjB;;AAED,AAAA,eAAe,CAAC;EACZ,SAAS,EAAE,OAAO;EAClB,KAAK,EFtBO,OAAO;CEuBtB;;AAED,AAAA,kBAAkB,CAAC;EACf,SAAS,EAAE,OAAO;EAClB,KAAK,EFzBQ,OAAO;EE0BpB,UAAU,EAAE,MAAM;EAClB,cAAc,EAAE,SAAS;EACzB,cAAc,EAAE,GAAG;EACnB,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "../scss/main.scss",
+        "../scss/abstracts/_colors.scss",
+        "../scss/abstracts/_typography.scss",
+        "../scss/base/_typography.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

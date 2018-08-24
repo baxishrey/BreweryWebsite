@@ -1,0 +1,33 @@
+@import url("https://use.typekit.net/nie6qcv.css");
+body {
+  font-family: "droid-serif", serif;
+  font-size: 1.3125rem;
+  line-height: 1.5;
+  color: #89807A;
+  font-weight: 400;
+}
+
+h1, h2, h3, p, figure {
+  margin: 0;
+}
+
+.section__title,
+.section__subtitle {
+  font-family: "fira-sans", sans-serif;
+  line-height: 1;
+}
+
+.section__title {
+  font-size: 4.75rem;
+  color: #414A4D;
+}
+
+.section__subtitle {
+  font-size: 1.69rem;
+  color: #A3B9BF;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: .5em;
+}
+/*# sourceMappingURL=main.css.map */
