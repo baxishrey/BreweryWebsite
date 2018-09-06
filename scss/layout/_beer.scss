@@ -10,9 +10,29 @@
     margin: 3em auto;
     position: relative;
 
+    &__item {
+        @include applyOrder(5);
+        transform: scale(.7);
+
+        &.featured {
+            transform: scale(1);
+        }
+    }
+
+    &__caption {
+        opacity: 0;
+    }
+
+    &__item.featured &__caption {
+        opacity: 1;
+    }
+
     &__button {
         all: unset;
         padding: 0.5em;
+        &:last-of-type {
+            order:99;
+        }
     }
 
     &::before,
@@ -24,6 +44,7 @@
         bottom: 0;
         left: 0;
         right: 0;        
+        z-index: 9;
     }
 
     &::before {
